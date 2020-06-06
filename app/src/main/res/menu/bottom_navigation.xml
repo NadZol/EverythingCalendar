@@ -12,11 +12,6 @@
         android:title="To-Dos" />
 
     <item
-        android:id="@+id/nav_add_new"
-        android:icon="@drawable/ic_add_new"
-        android:title="New" />
-
-    <item
         android:id="@+id/nav_calendar"
         android:icon="@drawable/ic_calendar"
         android:title="Calendar" />
