@@ -27,7 +27,7 @@ public class NotesFragment extends Fragment {
 
         listView = (ListView)view.findViewById(R.id.listView);
         notes = new String[]{"example note", "example note 1"};
-        ArrayAdapter<String> notesAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, notes);
+        ArrayAdapter<String> notesAdapter = new ArrayAdapter<>(getActivity(), R.layout.notes_list_item, R.id.list_content, notes);
         listView.setAdapter(notesAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
